@@ -26,6 +26,8 @@ cpc = cars['cars_per_cap']
 many_cars = cpc > 500
 car_maniac = cars[many_cars]
 
+# One Liner code
+# car_maniac = cars[cars['cars_per_cap']>500]
 
 # Print car_maniac
 print(car_maniac)
